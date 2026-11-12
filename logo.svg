@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rwiza Escapes logo">
+  <defs>
+    <clipPath id="c"><circle cx="32" cy="32" r="30"/></clipPath>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#14452f"/>
+  <g clip-path="url(#c)">
+    <circle cx="32" cy="30" r="11" fill="#e0a43a"/>
+    <path d="M-2 44 C10 34 18 34 28 40 C36 45 44 33 66 38 L66 66 L-2 66Z" fill="#2f7a4f"/>
+    <path d="M-2 50 C12 42 24 46 34 50 C44 54 52 46 66 48 L66 66 L-2 66Z" fill="#1d5a3b"/>
+    <path d="M30 66 C30 58 34 54 38 50 C41 47 40 44 37 42" fill="none" stroke="#f3e7cf" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#e0a43a" stroke-width="2.5"/>
+</svg>
