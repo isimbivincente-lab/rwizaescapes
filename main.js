@@ -244,7 +244,7 @@
       if (!s.p) {
         $("#sum-title").textContent = s.pkg === "custom" ? "Tailor-made trip" : "No package selected";
         $("#sum-sub").textContent = s.pkg === "custom" ? "Our consultants will send a personalised quote" : "Choose a tour package to see your price";
-        $("#sum-img").src = "assets/img/hero-hills-sm.jpg";
+        $("#sum-img").src = "hero-hills-sm.jpg";
         $("#sum-lines").innerHTML = "";
         $("#sum-total").textContent = s.pkg === "custom" ? "Quote" : "$0";
         $("#sum-deposit").textContent = "—";
@@ -255,7 +255,7 @@
       var ret = "";
       if (s.date) { var r = new Date(s.date); r.setDate(r.getDate() + s.p.days - 1); ret = " · " + s.date.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) + " – " + r.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); }
       $("#sum-sub").textContent = s.p.days + " days" + ret;
-      $("#sum-img").src = "assets/img/" + s.p.img + "-sm.jpg";
+      $("#sum-img").src = "" + s.p.img + "-sm.jpg";
       var lines = [];
       var adultsCost = s.p.price * s.adults, kidsCost = s.p.price * 0.5 * s.children;
       lines.push(["Adults " + s.adults + " × " + money(s.p.price), adultsCost]);
